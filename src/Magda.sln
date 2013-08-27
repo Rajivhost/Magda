@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{CAA39945-6AC0-4549-9E79-C9AE4BB893F0}"
+	ProjectSection(SolutionItems) = preProject
+		..\doc\history.txt = ..\doc\history.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3719988E-B35A-4BFA-9671-36151A21A124}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{CFC39508-1119-4E00-BEC1-3C7518E42267}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magda.DataAcess.NET40", "Magda.DataAcess\Magda.DataAcess.NET40\Magda.DataAcess.NET40.csproj", "{0E47F60E-A0F0-4BA9-8D6C-126B788E1918}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E47F60E-A0F0-4BA9-8D6C-126B788E1918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E47F60E-A0F0-4BA9-8D6C-126B788E1918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E47F60E-A0F0-4BA9-8D6C-126B788E1918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E47F60E-A0F0-4BA9-8D6C-126B788E1918}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CFC39508-1119-4E00-BEC1-3C7518E42267} = {3719988E-B35A-4BFA-9671-36151A21A124}
+		{0E47F60E-A0F0-4BA9-8D6C-126B788E1918} = {CFC39508-1119-4E00-BEC1-3C7518E42267}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35;packages\Unity.Interception.2.1.505.2\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Data.5.0.505.0\lib\NET35
+	EndGlobalSection
+EndGlobal

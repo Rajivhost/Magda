@@ -1,0 +1,22 @@
+Magda history
+=============
+
+(+) Added
+(*) Changed
+(-) Removed
+(x) Error / bug (fix)
+
+Source code: https://github.com/Rajivhost/Magda
+
+**********************************************************
+
+==================
+Version 1.0
+==================
+
+Release date:
+=============
+2013/xx/xx
+
+Added/fixed:
+============
